@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/UiPathTeam.Message.Converter/UiPathTeam.Message.Converter.Activities.Design/bin/Debug/net6.0-windows
+/UiPathTeam.Message.Converter/UiPathTeam.Message.Converter.Activities.Design/bin
+/UiPathTeam.Message.Converter/UiPathTeam.Message.Converter.Activities.Design/obj/Release/net6.0-windows
+/UiPathTeam.Message.Converter/UiPathTeam.Message.Converter.Activities.Design/obj/Debug
