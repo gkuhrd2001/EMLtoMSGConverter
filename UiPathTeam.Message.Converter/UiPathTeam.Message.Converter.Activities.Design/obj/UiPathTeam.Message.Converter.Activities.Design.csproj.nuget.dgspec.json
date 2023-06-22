@@ -1,0 +1,244 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.Activities.Design\\UiPathTeam.Message.Converter.Activities.Design.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.Activities.Design\\UiPathTeam.Message.Converter.Activities.Design.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.Activities.Design\\UiPathTeam.Message.Converter.Activities.Design.csproj",
+        "projectName": "UiPathTeam.Message.Converter.Activities",
+        "projectPath": "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.Activities.Design\\UiPathTeam.Message.Converter.Activities.Design.csproj",
+        "packagesPath": "C:\\Users\\ankit.rajput\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.Activities.Design\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\.nuget\\NuGet.Config",
+          "C:\\Users\\ankit.rajput\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Official Documents\\OneDrive - UiPath\\Desktop\\CustomLibrary": {},
+          "https://gallery.uipath.com/api/v2": {},
+          "https://nuget.org/api/v2/": {},
+          "https://pkgs.dev.azure.com/uipath/Public.Feeds/_packaging/UiPath-Official/nuget/v3/index.json": {},
+          "https://www.myget.org/F/uipath/": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.Activities\\UiPathTeam.Message.Converter.Activities.csproj": {
+                "projectPath": "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.Activities\\UiPathTeam.Message.Converter.Activities.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "System.Activities.Core.Presentation": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-*, )"
+            },
+            "UiPath.Workflow": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-20220909-01, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.Activities\\UiPathTeam.Message.Converter.Activities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.Activities\\UiPathTeam.Message.Converter.Activities.csproj",
+        "projectName": "UiPathTeam.Message.Converter.Activities.Implementation",
+        "projectPath": "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.Activities\\UiPathTeam.Message.Converter.Activities.csproj",
+        "packagesPath": "C:\\Users\\ankit.rajput\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.Activities\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\.nuget\\NuGet.Config",
+          "C:\\Users\\ankit.rajput\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Official Documents\\OneDrive - UiPath\\Desktop\\CustomLibrary": {},
+          "https://gallery.uipath.com/api/v2": {},
+          "https://nuget.org/api/v2/": {},
+          "https://pkgs.dev.azure.com/uipath/Public.Feeds/_packaging/UiPath-Official/nuget/v3/index.json": {},
+          "https://www.myget.org/F/uipath/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.csproj": {
+                "projectPath": "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.csproj",
+                "privateAssets": "all"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MsgKit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            },
+            "System.Activities.Metadata": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-*, )"
+            },
+            "UiPath.Workflow.Runtime": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0-20220909-01, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.csproj",
+        "projectName": "UiPathTeam.Message.Converter",
+        "projectPath": "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.csproj",
+        "packagesPath": "C:\\Users\\ankit.rajput\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\.nuget\\NuGet.Config",
+          "C:\\Users\\ankit.rajput\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Official Documents\\OneDrive - UiPath\\Desktop\\CustomLibrary": {},
+          "https://gallery.uipath.com/api/v2": {},
+          "https://nuget.org/api/v2/": {},
+          "https://pkgs.dev.azure.com/uipath/Public.Feeds/_packaging/UiPath-Official/nuget/v3/index.json": {},
+          "https://www.myget.org/F/uipath/": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

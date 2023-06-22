@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>UiPathTeam.Message.Converter.Activities.Implementation</id>
+    <version>1.0.0</version>
+    <authors>Ankit Rajput</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="MsgKit" version="2.5.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\ankit.rajput\source\repos\EMLtoMSG\UiPathTeam.Message.Converter\UiPathTeam.Message.Converter.Activities\bin\Debug\net6.0\UiPathTeam.Message.Converter.Activities.dll" target="lib\net6.0\UiPathTeam.Message.Converter.Activities.dll" />
+    <file src="C:\Users\ankit.rajput\source\repos\EMLtoMSG\UiPathTeam.Message.Converter\UiPathTeam.Message.Converter.Activities\bin\Debug\net6.0\UiPathTeam.Message.Converter.Activities.xml" target="lib\net6.0\UiPathTeam.Message.Converter.Activities.xml" />
+  </files>
+</package>

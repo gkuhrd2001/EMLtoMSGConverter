@@ -1,0 +1,15 @@
+C:\Users\ankit.rajput\source\repos\EMLtoMSG\UiPathTeam.Message.Converter\UiPathTeam.Message.Converter\bin\Release\net6.0\UiPathTeam.Message.Converter.deps.json
+C:\Users\ankit.rajput\source\repos\EMLtoMSG\UiPathTeam.Message.Converter\UiPathTeam.Message.Converter\bin\Release\net6.0\UiPathTeam.Message.Converter.dll
+C:\Users\ankit.rajput\source\repos\EMLtoMSG\UiPathTeam.Message.Converter\UiPathTeam.Message.Converter\bin\Release\net6.0\UiPathTeam.Message.Converter.pdb
+C:\Users\ankit.rajput\source\repos\EMLtoMSG\UiPathTeam.Message.Converter\UiPathTeam.Message.Converter\bin\Release\net6.0\UiPathTeam.Message.Converter.xml
+C:\Users\ankit.rajput\source\repos\EMLtoMSG\UiPathTeam.Message.Converter\UiPathTeam.Message.Converter\obj\Release\net6.0\UiPathTeam.Message.Converter.csproj.AssemblyReference.cache
+C:\Users\ankit.rajput\source\repos\EMLtoMSG\UiPathTeam.Message.Converter\UiPathTeam.Message.Converter\obj\Release\net6.0\UiPathTeam.Message.Converter.Properties.Resources.resources
+C:\Users\ankit.rajput\source\repos\EMLtoMSG\UiPathTeam.Message.Converter\UiPathTeam.Message.Converter\obj\Release\net6.0\UiPathTeam.Message.Converter.csproj.GenerateResource.cache
+C:\Users\ankit.rajput\source\repos\EMLtoMSG\UiPathTeam.Message.Converter\UiPathTeam.Message.Converter\obj\Release\net6.0\UiPathTeam.Message.Converter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ankit.rajput\source\repos\EMLtoMSG\UiPathTeam.Message.Converter\UiPathTeam.Message.Converter\obj\Release\net6.0\UiPathTeam.Message.Converter.AssemblyInfoInputs.cache
+C:\Users\ankit.rajput\source\repos\EMLtoMSG\UiPathTeam.Message.Converter\UiPathTeam.Message.Converter\obj\Release\net6.0\UiPathTeam.Message.Converter.AssemblyInfo.cs
+C:\Users\ankit.rajput\source\repos\EMLtoMSG\UiPathTeam.Message.Converter\UiPathTeam.Message.Converter\obj\Release\net6.0\UiPathTeam.Message.Converter.csproj.CoreCompileInputs.cache
+C:\Users\ankit.rajput\source\repos\EMLtoMSG\UiPathTeam.Message.Converter\UiPathTeam.Message.Converter\obj\Release\net6.0\UiPathTeam.Message.Converter.dll
+C:\Users\ankit.rajput\source\repos\EMLtoMSG\UiPathTeam.Message.Converter\UiPathTeam.Message.Converter\obj\Release\net6.0\refint\UiPathTeam.Message.Converter.dll
+C:\Users\ankit.rajput\source\repos\EMLtoMSG\UiPathTeam.Message.Converter\UiPathTeam.Message.Converter\obj\Release\net6.0\UiPathTeam.Message.Converter.pdb
+C:\Users\ankit.rajput\source\repos\EMLtoMSG\UiPathTeam.Message.Converter\UiPathTeam.Message.Converter\obj\Release\net6.0\ref\UiPathTeam.Message.Converter.dll
