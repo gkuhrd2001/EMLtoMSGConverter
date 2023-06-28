@@ -1,7 +1,85 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    ".NETFramework,Version=v4.6.1": {
+      "MimeKit/2.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Portable.BouncyCastle": "1.8.5"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Net.Http",
+          "System.Security"
+        ],
+        "compile": {
+          "lib/net46/MimeKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net46/MimeKit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MsgKit/2.5.3": {
+        "type": "package",
+        "dependencies": {
+          "MimeKit": "2.6.0",
+          "OpenMcdf": "2.2.1.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/MsgKit.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MsgKit.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "OpenMcdf/2.2.1.4": {
+        "type": "package",
+        "compile": {
+          "lib/net40/OpenMcdf.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/OpenMcdf.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Portable.BouncyCastle/1.8.5": {
+        "type": "package",
+        "compile": {
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/BouncyCastle.Crypto.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "UiPathTeam.Message.Converter/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "compile": {
+          "bin/placeholder/UiPathTeam.Message.Converter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UiPathTeam.Message.Converter.dll": {}
+        }
+      }
+    },
+    "net6.0-windows7.0": {
       "Microsoft.CodeAnalysis.Analyzers/3.3.2": {
         "type": "package",
         "build": {
@@ -513,40 +591,43 @@
           "UiPath.Workflow": "6.0.0-20220121-04"
         },
         "compile": {
-          "lib/net6.0/System.Activities.Metadata.dll": {}
+          "lib/net6.0-windows7.0/System.Activities.Metadata.dll": {}
         },
         "runtime": {
-          "lib/net6.0/System.Activities.Metadata.dll": {}
+          "lib/net6.0-windows7.0/System.Activities.Metadata.dll": {}
         },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ],
         "resource": {
-          "lib/net6.0/de/System.Activities.Metadata.resources.dll": {
+          "lib/net6.0-windows7.0/de/System.Activities.Metadata.resources.dll": {
             "locale": "de"
           },
-          "lib/net6.0/es-MX/System.Activities.Metadata.resources.dll": {
+          "lib/net6.0-windows7.0/es-MX/System.Activities.Metadata.resources.dll": {
             "locale": "es-MX"
           },
-          "lib/net6.0/es/System.Activities.Metadata.resources.dll": {
+          "lib/net6.0-windows7.0/es/System.Activities.Metadata.resources.dll": {
             "locale": "es"
           },
-          "lib/net6.0/fr/System.Activities.Metadata.resources.dll": {
+          "lib/net6.0-windows7.0/fr/System.Activities.Metadata.resources.dll": {
             "locale": "fr"
           },
-          "lib/net6.0/ja/System.Activities.Metadata.resources.dll": {
+          "lib/net6.0-windows7.0/ja/System.Activities.Metadata.resources.dll": {
             "locale": "ja"
           },
-          "lib/net6.0/ko/System.Activities.Metadata.resources.dll": {
+          "lib/net6.0-windows7.0/ko/System.Activities.Metadata.resources.dll": {
             "locale": "ko"
           },
-          "lib/net6.0/pt-BR/System.Activities.Metadata.resources.dll": {
+          "lib/net6.0-windows7.0/pt-BR/System.Activities.Metadata.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/net6.0/pt/System.Activities.Metadata.resources.dll": {
+          "lib/net6.0-windows7.0/pt/System.Activities.Metadata.resources.dll": {
             "locale": "pt"
           },
-          "lib/net6.0/ru/System.Activities.Metadata.resources.dll": {
+          "lib/net6.0-windows7.0/ru/System.Activities.Metadata.resources.dll": {
             "locale": "ru"
           },
-          "lib/net6.0/tr/System.Activities.Metadata.resources.dll": {
+          "lib/net6.0-windows7.0/tr/System.Activities.Metadata.resources.dll": {
             "locale": "tr"
           }
         }
@@ -974,89 +1055,93 @@
           "UiPath.Workflow.Runtime": "6.0.0-20220909-01"
         },
         "compile": {
-          "lib/net6.0/Microsoft.CodeAnalysis.VisualBasic.Scripting.dll": {},
-          "lib/net6.0/UiPath.Workflow.dll": {}
+          "lib/net6.0-windows7.0/Microsoft.CodeAnalysis.VisualBasic.Scripting.dll": {},
+          "lib/net6.0-windows7.0/UiPath.Workflow.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Microsoft.CodeAnalysis.VisualBasic.Scripting.dll": {},
-          "lib/net6.0/UiPath.Workflow.dll": {}
-        }
+          "lib/net6.0-windows7.0/Microsoft.CodeAnalysis.VisualBasic.Scripting.dll": {},
+          "lib/net6.0-windows7.0/UiPath.Workflow.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       },
       "UiPath.Workflow.Runtime/6.0.0-20220909-01": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Activities.dll": {},
-          "lib/net6.0/System.Xaml.dll": {}
+          "lib/net6.0-windows7.0/System.Activities.dll": {}
         },
         "runtime": {
-          "lib/net6.0/System.Activities.dll": {},
-          "lib/net6.0/System.Xaml.dll": {}
+          "lib/net6.0-windows7.0/System.Activities.dll": {}
         },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ],
         "resource": {
-          "lib/net6.0/ar/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/ar/System.Activities.resources.dll": {
             "locale": "ar"
           },
-          "lib/net6.0/cs/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/cs/System.Activities.resources.dll": {
             "locale": "cs"
           },
-          "lib/net6.0/da/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/da/System.Activities.resources.dll": {
             "locale": "da"
           },
-          "lib/net6.0/de/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/de/System.Activities.resources.dll": {
             "locale": "de"
           },
-          "lib/net6.0/el/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/el/System.Activities.resources.dll": {
             "locale": "el"
           },
-          "lib/net6.0/en/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/en/System.Activities.resources.dll": {
             "locale": "en"
           },
-          "lib/net6.0/es/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/es/System.Activities.resources.dll": {
             "locale": "es"
           },
-          "lib/net6.0/fi/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/fi/System.Activities.resources.dll": {
             "locale": "fi"
           },
-          "lib/net6.0/fr/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/fr/System.Activities.resources.dll": {
             "locale": "fr"
           },
-          "lib/net6.0/he/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/he/System.Activities.resources.dll": {
             "locale": "he"
           },
-          "lib/net6.0/hu/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/hu/System.Activities.resources.dll": {
             "locale": "hu"
           },
-          "lib/net6.0/it/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/it/System.Activities.resources.dll": {
             "locale": "it"
           },
-          "lib/net6.0/ja/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/ja/System.Activities.resources.dll": {
             "locale": "ja"
           },
-          "lib/net6.0/ko/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/ko/System.Activities.resources.dll": {
             "locale": "ko"
           },
-          "lib/net6.0/nb/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/nb/System.Activities.resources.dll": {
             "locale": "nb"
           },
-          "lib/net6.0/nl/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/nl/System.Activities.resources.dll": {
             "locale": "nl"
           },
-          "lib/net6.0/pl/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/pl/System.Activities.resources.dll": {
             "locale": "pl"
           },
-          "lib/net6.0/pt-BR/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/pt-BR/System.Activities.resources.dll": {
             "locale": "pt-BR"
           },
-          "lib/net6.0/pt-PT/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/pt-PT/System.Activities.resources.dll": {
             "locale": "pt-PT"
           },
-          "lib/net6.0/ru/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/ru/System.Activities.resources.dll": {
             "locale": "ru"
           },
-          "lib/net6.0/sv/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/sv/System.Activities.resources.dll": {
             "locale": "sv"
           },
-          "lib/net6.0/tr/System.Activities.resources.dll": {
+          "lib/net6.0-windows7.0/tr/System.Activities.resources.dll": {
             "locale": "tr"
           }
         }
@@ -3274,7 +3359,11 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    ".NETFramework,Version=v4.6.1": [
+      "MsgKit >= 2.5.3",
+      "UiPathTeam.Message.Converter >= 1.0.0"
+    ],
+    "net6.0-windows7.0": [
       "MsgKit >= 2.5.3",
       "System.Activities.Metadata >= 6.0.0-*",
       "UiPath.Workflow.Runtime >= 6.0.0-20220909-01",
@@ -3286,7 +3375,7 @@
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.0.1",
     "restore": {
       "projectUniqueName": "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.Activities\\UiPathTeam.Message.Converter.Activities.csproj",
       "projectName": "UiPathTeam.Message.Converter.Activities",
@@ -3305,7 +3394,8 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net461",
+        "net6.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -3316,8 +3406,17 @@
         "https://www.myget.org/F/uipath/": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.csproj": {
+              "projectPath": "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.csproj",
+              "privateAssets": "all"
+            }
+          }
+        },
+        "net461": {
+          "targetAlias": "net461",
           "projectReferences": {
             "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.csproj": {
               "projectPath": "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.csproj",
@@ -3333,8 +3432,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
         "dependencies": {
           "MsgKit": {
             "target": "Package",
@@ -3368,6 +3467,16 @@
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      },
+      "net461": {
+        "targetAlias": "net461",
+        "dependencies": {
+          "MsgKit": {
+            "target": "Package",
+            "version": "[2.5.3, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -3379,7 +3488,7 @@
       "message": "System.Activities.Metadata 6.0.0-20220831.1 depends on UiPath.Workflow (>= 6.0.0-20220121-04) but UiPath.Workflow 6.0.0-20220121-04 was not found. An approximate best match of UiPath.Workflow 6.0.0-20220909-01 was resolved.",
       "libraryId": "UiPath.Workflow",
       "targetGraphs": [
-        "net6.0"
+        "net6.0-windows7.0"
       ]
     }
   ]

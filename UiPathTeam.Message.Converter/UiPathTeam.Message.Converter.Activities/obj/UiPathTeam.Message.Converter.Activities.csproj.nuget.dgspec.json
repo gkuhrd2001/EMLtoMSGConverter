@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.Activities\\UiPathTeam.Message.Converter.Activities.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.0.1",
       "restore": {
         "projectUniqueName": "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.Activities\\UiPathTeam.Message.Converter.Activities.csproj",
         "projectName": "UiPathTeam.Message.Converter.Activities",
@@ -24,7 +24,8 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net461",
+          "net6.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -35,8 +36,17 @@
           "https://www.myget.org/F/uipath/": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.csproj": {
+                "projectPath": "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.csproj",
+                "privateAssets": "all"
+              }
+            }
+          },
+          "net461": {
+            "targetAlias": "net461",
             "projectReferences": {
               "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.csproj": {
                 "projectPath": "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.csproj",
@@ -52,8 +62,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
           "dependencies": {
             "MsgKit": {
               "target": "Package",
@@ -87,6 +97,16 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        },
+        "net461": {
+          "targetAlias": "net461",
+          "dependencies": {
+            "MsgKit": {
+              "target": "Package",
+              "version": "[2.5.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -110,6 +130,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
+          "net461",
           "net6.0"
         ],
         "sources": {
@@ -123,6 +144,10 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
+            "projectReferences": {}
+          },
+          "net461": {
+            "targetAlias": "net461",
             "projectReferences": {}
           }
         },
@@ -151,6 +176,10 @@
               "privateAssets": "all"
             }
           },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        },
+        "net461": {
+          "targetAlias": "net461",
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }

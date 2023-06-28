@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SOEw80Gz4u9HFYC1AeaetarsM9HVSP7Zqy2F29csswcLq/uvEpW+5/nDSmqUaXyt7MmOsUtU8/kPnM4a26H82g==",
+  "dgSpecHash": "5dgBh2QxdmdDXD7exARK2fuuEiDCu4izea146HUmv8fXfVdlqyXhYlS+1XXjsq3LPGU10+HveMheEeok1vcRCA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ankit.rajput\\source\\repos\\EMLtoMSG\\UiPathTeam.Message.Converter\\UiPathTeam.Message.Converter.Activities\\UiPathTeam.Message.Converter.Activities.csproj",
   "expectedPackageFiles": [
@@ -63,7 +63,7 @@
       "message": "System.Activities.Metadata 6.0.0-20220831.1 depends on UiPath.Workflow (>= 6.0.0-20220121-04) but UiPath.Workflow 6.0.0-20220121-04 was not found. An approximate best match of UiPath.Workflow 6.0.0-20220909-01 was resolved.",
       "libraryId": "UiPath.Workflow",
       "targetGraphs": [
-        "net6.0"
+        "net6.0-windows7.0"
       ]
     }
   ]
