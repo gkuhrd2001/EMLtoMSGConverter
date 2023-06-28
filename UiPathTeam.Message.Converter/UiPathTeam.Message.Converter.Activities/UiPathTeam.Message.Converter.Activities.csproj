@@ -35,8 +35,7 @@
     <Reference Include="WindowsBase" />
    <!-- <Reference Include="MsgKit" />    -->
   </ItemGroup>
-  <ItemGroup Condition=" '$(TargetFramework)' == 'net6.0-windows' ">
-    
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net6.0-windows' ">    
     <PackageReference Include="System.Activities.Metadata" Version="6.0.0-*" PrivateAssets="All" />
     <PackageReference Include="UiPath.Workflow.Runtime" Version="6.0.0-20220909-01" PrivateAssets="All" />
   </ItemGroup>
