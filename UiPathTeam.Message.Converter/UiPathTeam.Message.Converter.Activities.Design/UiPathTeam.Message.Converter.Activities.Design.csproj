@@ -1,6 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
-    <TargetFrameworks>net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>net6.0;net461</TargetFrameworks>
     <UseWPF>true</UseWPF>
 		<RootNamespace>UiPathTeam.Message.Converter.Activities.Design</RootNamespace>
 		<AssemblyName>UiPathTeam.Message.Converter.Activities.Design</AssemblyName>

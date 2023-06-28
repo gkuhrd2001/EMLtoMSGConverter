@@ -1,9 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>net6.0</TargetFrameworks>
+    <TargetFrameworks>net6.0-windows;net461</TargetFrameworks>
 		<RootNamespace>UiPathTeam.Message.Converter.Activities</RootNamespace>
 		<AssemblyName>UiPathTeam.Message.Converter.Activities</AssemblyName>
-    <PackageId>UiPathTeam.Message.Converter.Activities</PackageId>
+    <PackageId></PackageId>
   </PropertyGroup>
   <PropertyGroup>
     <OutputPath>bin\$(Configuration)\</OutputPath>
@@ -11,11 +11,37 @@
     <Company>UiPath</Company>
     <Authors>Ankit Rajput</Authors>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <Version>$(AssemblyVersion)</Version>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="MsgKit" Version="2.5.3" />
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net461' ">
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Activities" />
+    <Reference Include="System.Activities.Core.Presentation" />
+    <Reference Include="System.Activities.Presentation" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+   <!-- <Reference Include="MsgKit" />    -->
+  </ItemGroup>
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net6.0-windows' ">
+    
     <PackageReference Include="System.Activities.Metadata" Version="6.0.0-*" PrivateAssets="All" />
     <PackageReference Include="UiPath.Workflow.Runtime" Version="6.0.0-20220909-01" PrivateAssets="All" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MsgKit" Version="2.5.3" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\UiPathTeam.Message.Converter\UiPathTeam.Message.Converter.csproj" PrivateAssets="All" />
